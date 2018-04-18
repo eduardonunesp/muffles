@@ -1,0 +1,17 @@
+{
+  "name": "muffles",
+  "description": "Another framework to support fast DApps development and deploy inspired by truffle",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "mocha": "^5.1.0",
+    "solc": "^0.4.22",
+    "web3": "^1.0.0-beta.34"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "migrate": "node ./scripts/migrate.js",
+    "compile": "node ./scripts/compile.js",
+    "solc": "solc"
+  },
+  "license": "MIT"
+}
