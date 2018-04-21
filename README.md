@@ -16,22 +16,22 @@ yarn add muffles --global
 
 ## Commands
 
-```
-// Creates a new directory structure for a new project
+```Bash
+# Creates a new directory structure for a new project
 muffles init
 ```
 
-```
-// Compile all files contracts directory
+```Bash
+# Compile all files contracts directory
 muffles compile
 ```
 
-```
-// Migrates (deploy) files to selected network
+```Bash
+# Migrates (deploy) files to selected network
 muffles migrate
 ```
 
-```
-// Test files on test files using mocha and chai
+```Bash
+# Test files on test files using mocha and chai
 muffles test
 ```
