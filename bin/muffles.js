@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+require('colors')
 const program = require('caporal')
 const muffles = require('./../package.json')
 

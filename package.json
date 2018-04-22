@@ -8,16 +8,21 @@
       "email": "eduardonunesp@gmail.com"
     }
   ],
-  "license": "MIT",
-  "scripts": {
-    "test": "mocha test",
-    "migrate": "node ./scripts/migrate.js",
-    "compile": "node ./scripts/compile.js"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eduardonunesp/muffles.git"
   },
+  "bugs": {
+    "url": "https://github.com/eduardonunesp/muffles/issues"
+  },
+  "homepage": "https://github.com/eduardonunesp/muffles",
+  "license": "MIT",
   "dependencies": {
     "caporal": "^0.10.0",
     "chai": "^4.1.2",
     "colors": "^1.2.1",
+    "eslint": "^4.19.1",
+    "lodash": "^4.17.5",
     "mocha": "^5.1.1",
     "ncp": "^2.0.0",
     "solc": "^0.4.22",
@@ -27,6 +32,6 @@
     "node": ">= 9.11.0"
   },
   "bin": {
-    "muffles": "./bin/muffles"
+    "muffles": "./bin/muffles.js"
   }
 }
