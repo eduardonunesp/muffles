@@ -1,6 +1,6 @@
 {
   "name": "muffles",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A delicious framework to support fast DApps development and deploy inspired by truffle",
   "authors": [
     {
